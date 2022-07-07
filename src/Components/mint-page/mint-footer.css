@@ -1,0 +1,19 @@
+.icons-container-firstText{
+    font-family: 'Peepo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: start;
+}
+.icons-container{
+    margin-top: 20px;
+    width: 78%;
+    margin-left: 10%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+}
+.icons-container-end{
+    margin-left:475px;
+}

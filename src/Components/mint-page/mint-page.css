@@ -1,0 +1,353 @@
+
+*{
+    background-color: black;
+    color: white;
+}
+.mint-container-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.mint-container-first__h2{
+    color: white;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    font-family: 'upheaval';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 44px;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.mint-container-first_p{
+    font-family: 'peepo';
+    color: white;
+    display: block;
+    margin-top: -20px;
+    width: 83%;
+    font-family: 'Peepo';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.Btn-container-second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: none;
+}
+.Btn-container-second__third{
+    padding: 10px;
+    border: 2px solid white;  
+    clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
+    margin-right: 10px; 
+
+}
+.Btn-container-second__1st{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
+    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    font-family: 'peepo';
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 23px;
+    border: none;
+    flex: 1;
+    color: white;
+    border-radius: 10px;
+}
+.Btn-container-second__second{
+    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
+    font-family:'Peepo';
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.Btn-container-second_third{
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    font-family: 'Peepo';
+}
+
+.Btn-container-second_fourth{
+    margin-right: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius:20px;
+    padding: 10px;
+    color: white;
+}
+.mint-container-third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    align-items: flex-start;
+}
+.box{
+    width: 80%;
+}
+.containerOne{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #191A1C;
+    box-sizing: border-box;
+    margin-right: 10px;
+    flex: 6;
+    height: 540px;
+    margin-right: 50px;
+    margin-left: 130px;
+}
+.form-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #191A1C;
+    align-items: center;
+    flex: wrap;
+}
+.form-containerTwo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #191A1C;
+    align-items: center;
+}
+.form-containerTwo__text{
+    font-family: 'upheaval';
+    font-weight:bolder;
+    font-style: normal;
+    line-height: 17px;
+    font-size: 18px;
+    background-color: #191A1C;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #F2F2F2;
+}
+.redColor{
+    color: #FF7448 !important;
+    background-color: #191A1C !important;
+}
+.underline-Btn{
+    text-align: start;
+    background-color: #191A1C;
+    padding-left: -20px;
+    margin-left: 42px;
+    font-family: 'Peepo';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 12px;
+}
+.underline-Btn-second{
+    text-align: start;
+    background-color: #191A1C;
+    padding-left: -20px;
+    margin-left: 42px;
+    font-family: 'Peepo';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 12px;
+    margin-top: -12px;
+}
+.form-containerTwo__text__second{
+    font-family: 'upheaval';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17px;
+    font-size: 18px;
+/* identical to box height */
+    background-color: #191A1C;
+    margin-left: -8px;
+    letter-spacing: 0.03em;
+}
+.form-containerTwo__text__third{
+    font-family: 'upheaval';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17px;
+    font-size: 18px;
+/* identical to box height */
+    margin-right: -15px;
+    letter-spacing: 0.03em;
+}
+.form-containerTwo__text__span{
+    background-color: #191A1C;
+    font-family: 'Peepo';
+    margin-right: 20px;
+}
+.Btn-container-last{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 110px 10px 110px;
+    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    box-shadow: 0px -2px 4px rgba(95, 193, 124, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+.AddBtn{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 6px;
+    border: none;
+    font-family: 'upheaval';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 13px;
+/* identical to box height */
+    border: 0.03em;
+    color: #191A1C;
+}
+.second-span{
+    margin-left: -45px; 
+}
+.third-span{
+    margin-left: -50px;
+}
+.underline{
+    width: 78%;
+    border: 1px solid white !important;
+    margin-top: -7px;
+}
+.starting-text{
+    font-family: 'Peepo';
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -30px;
+    text-align: center;
+}
+.containerSecond{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #191A1C;
+    box-sizing: border-box;
+    margin-right: 170px;
+    flex-basis: 800px;
+    flex: 6;
+    display: flex;
+    height: 540px !important;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.mint-container-third__first{
+    font-family: 'upheaval';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+}
+.containerOne__first{
+    text-align: center;
+    background-color: #191A1C;
+    font-family: 'upheaval';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.containerOne__second{
+    font-family: 'Peepo';
+    background-color: #191A1C;
+    margin-top: -37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #F2F2F2;
+    line-height: -20px !important;
+}
+.Handling{
+    display: inline-table;
+}
+.AmountValue{
+    text-align: start;
+}
+.Btn-container-second_third{
+font-family: 'Peepo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+}
+.AmountValue span{
+    text-align: center;
+}
+.calculator{
+    display: inline;
+    text-align: end;
+}
+.formHandling{
+    display: inline;
+}
+.containerSecond{
+    height: 610px;
+}
+@media screen and (min-width:400px) and (max-width:490px){
+    .Btn-container-second_third{
+        display: none;
+    }
+    .Btn-container-second_fourth{
+        display: none;
+    }
+    .Btn-container-second_fourth{
+        display: none;
+    }
+}
+@media screen and (min-width:360px) and (max-width:770px){
+    .mint-container-third{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerOne{
+        order: 0;
+        margin-right: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .containerSecond{
+        margin-top: 10px;
+        margin-right: 25px !important;
+        /* padding-right: 20px;
+        padding-left: 20px; */
+        margin-right: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (min-width:780px){
+    .containerOne{
+        border: 2px grovoe red;
+    }
+    .containerSecond{
+        flex-basis:20%;
+    }
+}

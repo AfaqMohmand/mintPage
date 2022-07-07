@@ -1,0 +1,54 @@
+.navbar-container-img{
+    /* position: absolute;
+    height: 65px;
+    right: 1228.39px;
+    background: #FFFFFF;
+    display: block;
+    Height :65px;
+    Width :33.22px;
+    Left :90.39px;
+    Top :30px; */
+    display: inline-block;
+    text-align: center;
+}
+.navbar-container{
+    text-align: start;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.navbar-container-h3{
+    display: block;
+    margin-top: -5px;
+    font-family: 'Peepo';
+    height: 13.12px;
+    font-family: 'Peepo';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 16px;
+}
+.navbar-container-Btn{
+    position: absolute;
+    background: linear-gradient(180deg, #22BC50 0%, rgba(0, 201, 60, 0.3) 100%);
+    clip-path: polygon(0% 15%, 6% 15%, 6% 0, 94% 1%, 94% 13%, 100% 15%, 100% 85%, 94% 84%, 94% 100%, 5% 100%, 6% 85%, 0% 85%);
+    box-shadow: 0px -2px 4px rgba(95, 193, 124, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    top: 10%;
+    padding: 10px;
+    font-family: 'Peepo';
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -2px 4px rgba(95, 193, 124,0.7);
+    border-radius: 10px;
+    border:none;
+    left: 78%;
+}
+@media screen and (min-width:360px) and (max-width:750px){
+    .navbar-container-Btn{
+        margin-left: -70px;
+        margin-top: 30px;
+    }
+    .navbar-container-img{
+        margin-left: -100px;
+    }
+}
